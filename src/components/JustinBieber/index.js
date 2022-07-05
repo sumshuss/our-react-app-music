@@ -1,6 +1,11 @@
 import React from "react";
 
 export default function Justinbieber() {
+
+    function handleLikes({counter, setCounter}) {
+        setCounter(counter + 1)
+    }
+
      return (
 
         <>
@@ -15,8 +20,9 @@ export default function Justinbieber() {
             <ul>
             
                 <li> Baby </li>
+                <button onClick = {handleLikes}>Like!</button>
                 <li> Love yourself </li>
-            
+                <button>Like!</button>
 
             </ul>
         </div>
