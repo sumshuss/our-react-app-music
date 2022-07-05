@@ -1,15 +1,12 @@
-import Katebush from './components/Katebush';
-import Rammstein from './components/Rammstein';
-import Header from './components/Header';
-import Justinbieber from './components/Justinbieber';
 import './App.css';
+import {Header, JustinBieber, KateBush, Rammstein} from './components'
 
 function App() {
   return (
   <>
     <Header />
-    <Katebush />
-    <Justinbieber />
+    <KateBush />
+    <JustinBieber />
     <Rammstein />
   </>
   );
