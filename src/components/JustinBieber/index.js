@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 export default function JustinBieber() {
@@ -39,4 +40,4 @@ export default function JustinBieber() {
       </div>
     </>
   );
-}
+
