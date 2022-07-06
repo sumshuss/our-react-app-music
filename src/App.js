@@ -1,15 +1,20 @@
-import Katebush from './components/Katebush';
-import Rammstein from './components/Rammstein';
-import Header from './components/Header';
-import Justinbieber from './components/Justinbieber';
+
+import React, {useState} from 'react';
+
 import './App.css';
+import {Header, JustinBieber, KateBush, Rammstein} from './components'
 
 function App() {
+
+  const [counter, setCounter] = useState(0)
+
   return (
   <>
     <Header />
-    <Katebush />
-    <Justinbieber />
+    <KateBush />
+
+    <JustinBieber />
+
     <Rammstein />
   </>
   );
